@@ -11,7 +11,6 @@ $.ajaxPrefilter(function (options) {
             Authorization: localStorage.getItem("token") || ""
         }
     }
-
     //全局统一挂载 complete 函数
     // 数据获取成功跟失败都会执行的回调函数 complete
     options.complete = function (res) {

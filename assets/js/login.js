@@ -1,4 +1,5 @@
 $(function () {
+    var layer = layui.layer
     // 登陆注册切换
     $(".enter-a").on("click", function () {
         $(".register").show()

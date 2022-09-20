@@ -1,5 +1,6 @@
 $(function () {
     // 从layui获取form对象
+    var layer = layui.layer
     var form = layui.form;
     // 密码验证
     form.verify({
@@ -20,7 +21,7 @@ $(function () {
             }
         } 
     })
-    // 重置密码
+    // 修改密码
     $(".layui-form").on("submit",function (e) {
         e.preventDefault()
         $.ajax({

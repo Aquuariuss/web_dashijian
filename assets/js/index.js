@@ -1,4 +1,5 @@
 $(function () {
+    var layer = layui.layer
     geiUserInif()
 
     //点击退出按钮
